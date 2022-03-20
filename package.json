@@ -1,0 +1,21 @@
+{
+  "name": "test_backend",
+  "version": "1.0.0",
+  "description": "This is a game log parser and server created for participating on nodejs backend LuizaLabs developer selective process",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Flávio Monteiro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "chai-match": "^1.1.1",
+    "express": "^4.16.2",
+    "mocha": "^5.0.1",
+    "promise": "^8.0.1",
+    "request": "^2.83.0"
+  }
+}
